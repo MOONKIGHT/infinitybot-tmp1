@@ -1,14 +1,15 @@
 FROM node:lts-buster
 
-RUN apt update && apt upgrade
-apt install git -y
-apt install nodejs -y
-apt install ffmpeg -y
-git clone https://github.com/zhwzein/Killua-Zoldyck
-cd Killua-Zoldyck
-pkg install yarn
-yarn add @adiwajshing/baileys
-yarn
+RUN apt-get update && \
+  apt-get install -y \
+  ffmpeg \
+  imagemagick \
+  webp && \
+  apt-get upgrade -y && \
+  rm -rf /var/lib/apt/lists/*
+RUN pkg install yarn
+RUN yarn add @adiwajshing/baileys
+RUN yarn
 
 COPY package.json .
 
