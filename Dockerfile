@@ -7,9 +7,6 @@ RUN apt-get update && \
   webp && \
   apt-get upgrade -y && \
   rm -rf /var/lib/apt/lists/*
-RUN pkg install yarn
-RUN yarn add @adiwajshing/baileys
-RUN yarn
 
 COPY package.json .
 
