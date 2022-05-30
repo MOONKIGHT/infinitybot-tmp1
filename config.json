@@ -1,7 +1,7 @@
 {
   "APIs": {
     "zenz": "https://zenzapis.xyz",
-    "apikey": "YOURAPIKEY"
+    "apikey": "0f6838849f"
   },
   "options": {
     "autoRead": false,
@@ -15,12 +15,12 @@
     "multi": "/database/killua-multi.json"
   },
   "exif": {
-    "packname": "zenzapi",
-    "author": "https://zenzapi.xyz"
+    "packname": "𝙸𝚗𝚏𝚒𝚗𝚒𝚝𝚢𝘽𝙊𝙏𝙫3 by 𝙎𝙖𝙖𝙙 𝙍𝙈",
+    "author": "𝙸𝚗𝚏𝚒𝚗𝚒𝚝𝚢𝘽𝙊𝙏𝙫3 by 𝙎𝙖𝙖𝙙 𝙍𝙈"
   },
   "owner": [
-    "62812xxx"
+    "212681221462"
   ],
-  "timezone": "Asia/Jakarta",
-  "footer": "Powered by https://zenzapis.xyz"
+  "timezone": "Africa/Casablanca",
+  "footer": "Powered by c99"
 }
